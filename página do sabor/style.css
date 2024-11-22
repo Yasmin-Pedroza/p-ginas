@@ -1,0 +1,44 @@
+body {
+    color: black;
+    background: #ddd7c4;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+header {
+    border-bottom: solid 2px #ccc2bb;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 2px;
+    font-size: 40px;
+    color: #a79a95;
+}
+
+.chamada {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.conteiner_img {
+    height: 250px;
+}
+
