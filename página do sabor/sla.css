@@ -1,0 +1,92 @@
+body {
+    color: black;
+    background: #ddd7c4;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+header {
+    border-bottom: solid 2px #ccc2bb;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 2px;
+    font-size: 40px;
+    color: #a79a95;
+}
+
+.container__botao {
+    text-decoration: none;
+    color: #a79a95;
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+}
+
+.chamada {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.conteiner_img {
+    height: 250px;
+}
+
+.cardapio {
+    background-image: url("img/cofee.png");
+
+}
+
+.container_cafeimg {
+    margin: 1em 0 2em 0;
+    width: 200px;
+}
+
+.container_cardapio {
+    background-color: #9b755e;
+    border-radius: 15px;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 1em;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: #5d0000;
+}
+
+.ingredientes {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: #5d0000;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.container_cafeimgg {
+    height: 200px;
+}
+
+.container__aviso {
+    font-size: 25px;
+    color: var(--cinza-secundario);
+}
